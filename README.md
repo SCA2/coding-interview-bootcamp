@@ -1,1 +1,1 @@
-# Udemy Coding Interveiew Bootcamp Exercises
+# Udemy Coding Interview Bootcamp Exercises
