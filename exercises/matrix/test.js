@@ -4,6 +4,12 @@ test('matrix is a function', () => {
   expect(typeof matrix).toEqual('function');
 });
 
+test('matrix produces a 1x1 array', () => {
+  const m = matrix(1);
+  expect(m.length).toEqual(1);
+  expect(m[0]).toEqual([1]);
+});
+
 test('matrix produces a 2x2 array', () => {
   const m = matrix(2);
   expect(m.length).toEqual(2);
